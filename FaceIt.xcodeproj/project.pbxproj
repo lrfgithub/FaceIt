@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		C77915F82A8709D2007F2124 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77915F72A8709D2007F2124 /* AppDelegate.swift */; };
 		C77915FA2A8709D2007F2124 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77915F92A8709D2007F2124 /* SceneDelegate.swift */; };
-		C77915FC2A8709D2007F2124 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77915FB2A8709D2007F2124 /* ViewController.swift */; };
+		C77915FC2A8709D2007F2124 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77915FB2A8709D2007F2124 /* FaceViewController.swift */; };
 		C77915FF2A8709D2007F2124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77915FD2A8709D2007F2124 /* Main.storyboard */; };
 		C77916012A8709D5007F2124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C77916002A8709D5007F2124 /* Assets.xcassets */; };
 		C77916042A8709D5007F2124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77916022A8709D5007F2124 /* LaunchScreen.storyboard */; };
+		C779160C2A870A3B007F2124 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C779160B2A870A3B007F2124 /* FaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C77915F42A8709D2007F2124 /* FaceIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C77915F72A8709D2007F2124 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C77915F92A8709D2007F2124 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C77915FB2A8709D2007F2124 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C77915FB2A8709D2007F2124 /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
 		C77915FE2A8709D2007F2124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C77916002A8709D5007F2124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C77916032A8709D5007F2124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C77916052A8709D5007F2124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C779160B2A870A3B007F2124 /* FaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				C77915F72A8709D2007F2124 /* AppDelegate.swift */,
 				C77915F92A8709D2007F2124 /* SceneDelegate.swift */,
-				C77915FB2A8709D2007F2124 /* ViewController.swift */,
+				C77915FB2A8709D2007F2124 /* FaceViewController.swift */,
 				C77915FD2A8709D2007F2124 /* Main.storyboard */,
+				C779160B2A870A3B007F2124 /* FaceView.swift */,
 				C77916002A8709D5007F2124 /* Assets.xcassets */,
 				C77916022A8709D5007F2124 /* LaunchScreen.storyboard */,
 				C77916052A8709D5007F2124 /* Info.plist */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C77915FC2A8709D2007F2124 /* ViewController.swift in Sources */,
+				C77915FC2A8709D2007F2124 /* FaceViewController.swift in Sources */,
 				C77915F82A8709D2007F2124 /* AppDelegate.swift in Sources */,
 				C77915FA2A8709D2007F2124 /* SceneDelegate.swift in Sources */,
+				C779160C2A870A3B007F2124 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
